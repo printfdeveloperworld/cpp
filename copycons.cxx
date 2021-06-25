@@ -31,6 +31,11 @@ class test
 	{
 		*this->a = a;
 	}	
+	
+	~test()
+	{
+		delete a;
+	}
 
 
 };
